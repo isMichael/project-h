@@ -1,0 +1,32 @@
+{
+  "name": "hdrop-sensors",
+  "version": "1.0.0",
+  "title": "HDROP-580",
+  "description": "HDROP Sensors",
+  "tags": [],
+  "libraries": [
+    {
+      "name": "framework7",
+      "version": "1.4.2"
+    },
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
+  "index-file": "index.html",
+  "uuid": "EDFEC62E-9910-0BAC-5241-D8BDA6932A2F",
+  "icon": "app-icon.png",
+  "doc-url": "https://evothings.com/2.1/doc/examples/template-basic-app.html",
+  "plugins": [
+    {
+      "name": "cordova-plugin-ble",
+      "version": "2.0.1"
+    }
+  ],
+  "long-description": "App long description.",
+  "author-name": "Michael Cruz",
+  "author-email": "mcruz1@harding.edu",
+  "author-url": "https://harding.edu",
+  "cordova-id": "com.hdrop.sensors"
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>hdrop</title>
+
+    <script>
+    // Redirect console.log when running from Evothings Workbench.
+    if (window.hyper && window.hyper.log) { console.log = hyper.log }
+    </script>
+
+    <link rel="stylesheet" href="libs/bootstrap-4.3.1/css/bootstrap.min.css">
+</head>
+<body style="overflow: auto; height: 100%; background-color:#263238">
+    <nav class="navbar fixed-top justify-content-between" style="background-color: #2962FF">
+        <a class="navbar-brand text-white">hdrop</a>
+        <div class="form-inline">
+            <button id="save" class="btn btn-outline-light my-2 my-sm-0">SAVE</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <textarea class="form-control mb-4" rows="1" placeholder="Output" style="font-size:small; margin-top: 90px" disabled></textarea>    
+    </div>
+        
+    <script src="cordova.js"></script>
+    <script src="libs/ble/main.js"></script>
+    <script src="libs/jquery/jquery.js"></script>		
+    <script src="libs/framework7/js/framework7.js"></script>
+    <script src="libs/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
